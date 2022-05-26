@@ -13,40 +13,50 @@
 
 
      .header{
-       display: flex;
+       flex: 1;
        justify-content: center ;
-       @media(min-width: 768px;){
-         
-       }
-      
      }
      .names{
        margin: 3em;
        display: flex;
   
      }
-     
+     @media(min-width: 768px){
+         .header{
+           display: flex;
+         }
+        }
+       
      .city{
-       display: flex;
+       flex: 1;
        justify-content: flex-end;
        padding: 2em;
      }
+     @media(min-width: 768px){
+         .city{
+           display: flex;
+         }
+        }
+       
     .paragraph{
       display: flex;
-      align-items: flex-end;
-      margin: 2em;
+      align-items: center;
+      margin: 0.5em;
     }
     table,th,td{
       width: 25em;
       border: solid black;
     }
     .places{
-      display: flex;
+      flex: 1;
       align-items: flex-end;
       
-      
     }
-    
+    @media(min-width: 768px){
+      .places{
+        display: flex;
+      }
+    }
     .yu-gardenpara{
       margin: 1em;
       vertical-align: bottom;
@@ -117,7 +127,7 @@
   </table>
     </div>
 </div>
-<h1> Histotical </h1>
+<h1> Histotical Places</h1>
 <div class="places">
 <div class="museumpic">
   <h3>1.Science &Technology Museum</h3>
