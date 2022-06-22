@@ -255,3 +255,18 @@ table,th,td{
 body{
   background-color: lightblue;
 }
+.container1{
+  border-radius: 1em;
+        background-color: salmon;
+        padding: 2em;
+}
+.container3{
+  border-radius: 1em;
+        background-color: salmon;
+        padding: 2em;
+}
+.container4{
+  border-radius: 1em;
+        background-color: seashell;
+        padding: 2em;
+}
